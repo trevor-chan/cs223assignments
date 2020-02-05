@@ -1,0 +1,19 @@
+ESTIMATE of time to complete assignment: 10:00
+
+Date	Started	Spent	WorkCompleted
+——	——-	——	——
+0911	22:00	1:00	Diagram of basic state machine states and transitions
+0913	22:00	1:00	writing code for state machine states
+0914	22:00	2:00	writing conditional statements for stjatemachine
+			states trkpt, lat, Lon, lee, time
+0916	22:00	1:00	checking/updating written code
+0917	19:00	6:00	went to office hours, submitted code to zoo and 
+			ran test cases for first time, started debugging
+0918	10:00	1:00	continued debugging - passed all public test cases
+0918	20:00	2:00	testing edge cases
+		——
+		14:00 TOTAL time spent
+
+Didn’t talk to anyone else outside of office hours
+
+For the first while of writing the program, I didn’t know how to test it or access the public cases, so it was really helpful when I went to office hours and figured out how that works. Other than that, I was using scanf instead of getchar for a while, which I now realize was a terrible idea. It caused a lot of the invalid cases to fail, but I think I have that mostly ironed out now. Also, I’ve never really tried to test edge cases for a cs assignment, so I’m sure I’ve missed a lot. Maybe I’ll get better at that as the semester goes on…
