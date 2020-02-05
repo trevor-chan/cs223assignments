@@ -1,0 +1,20 @@
+ESTIMATE of time to complete assignment: 25:00
+
+Date	Started	Spent	WorkCompleted
+——	——-	——	——
+1012	22:00	1:00	read assignment
+1015	22:00	1:00	drew up diagram for track ADT, defined struct
+1016	22:00	2:00	started writing functions for track, mainly easy ones
+1018	15:00	4:00	continued writing functions for track
+1020	19:00	3:00	made heatmap.c (empty) wrote makefile, unit testing and debugging
+1021	21:00	4:00	debugging track, rewriting add point, merge segs, started heat map function
+1022	21:00	3:00	wrote heatmap.c, testing testing testing
+1023	21:00	5:00	passes all public cases, writing in wrap case
+1024	10:00	1:00	final checking and submitting
+		——
+		24:00 TOTAL time spent
+
+Did not talk to anyone or attend office hours
+
+The most challenging aspects of this assignment for me were writing the add point and merge functions, as well as the heat map wraparound case. Addpoint and merge were difficult as my initial memory allocation and indexing was always slightly off, which resulted in a lot of memory leaks. Additionally, I was confused at first when initialization of a value should first take place (e.g. when a segment is created, should the first tracepoint be allocated but not initialized until add point is called?) The heat map function was fairly straightforward, except for the wrap case, which took some thinking to figure out. I ended up finding the largest gap between consecutive longitudes of points and comparing that to the distance wrapping around the -180/180 meridian to determine whether an inversion was necessary.
+
